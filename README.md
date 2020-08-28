@@ -24,6 +24,14 @@ Bonuses:
   - Microservices
   - Swagger documentation
 
+# Installing
+
+The application can be installed by the command bellow:
+
+```sh
+mvn clean install
+```
+
 # Running the application
 
 The application can be executed by the command bellow:
