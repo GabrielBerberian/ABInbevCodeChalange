@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: 76e8e79a973eb8b08a5c
+            clientSecret: 3bfab7d8c2bfae04bfd3f3bca1faaad3b1d9e485
+  data:
+    mongodb:
+      uri: mongodb://localhost/abinbevchalange
+management:
+  endpoint:
+    health:
+      show-details: "ALWAYS"
